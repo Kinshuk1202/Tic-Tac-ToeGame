@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCE8DC"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_margin="50dp"
+        android:fontFamily="casual"
+        android:text="@string/game_title"
+        android:textAlignment="center"
+        android:textColor="#0C5F85"
+        android:textSize="20pt">
+
+    </TextView>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:backgroundTint="#F9F9F9"
+            android:onClick="buClick"
+            android:text="@string/emptyCell"
+            app:cornerRadius="0.1pt" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:backgroundTint="#F9F9F9"
+            android:onClick="buClick"
+            android:text="@string/emptyCell"
+            app:cornerRadius="0.1pt"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:backgroundTint="#F9F9F9"
+            android:enabled="true"
+            android:onClick="buClick"
+            android:text="@string/emptyCell"
+            app:cornerRadius="0.1pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:text="@string/emptyCell"
+            android:backgroundTint="#F9F9F9"
+            android:onClick="buClick"
+            app:cornerRadius="0.1pt"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:text="@string/emptyCell"
+            android:onClick="buClick"
+            android:backgroundTint="#F9F9F9"
+            app:cornerRadius="0.1pt"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:backgroundTint="#F9F9F9"
+            android:text="@string/emptyCell"
+            android:onClick="buClick"
+            app:cornerRadius="0.1pt"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:backgroundTint="#F9F9F9"
+            android:text="@string/emptyCell"
+            android:onClick="buClick"
+            app:cornerRadius="0.1pt"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:backgroundTint="#F9F9F9"
+            android:text="@string/emptyCell"
+            android:onClick="buClick"
+            app:cornerRadius="0.1pt"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"
+            android:backgroundTint="#F9F9F9"
+            android:text="@string/emptyCell"
+            android:onClick="buClick"
+            app:cornerRadius="0.1pt"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/resetbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#03B231"
+            android:onClick="restart"
+            android:text="@string/restart"
+            app:cornerRadius="1pt" />
+    </TableRow>
+</TableLayout>
